@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-15T06:31:13.802Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="eMAw9mc0nimrIC5xB45T" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-15T06:33:13.663Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="yhIdQGq1j-ksvfm2hgZq" version="21.1.8" type="github">
   <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
     <mxGraphModel dx="2934" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="reJh8B2pBs2txFVzYymY-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="62893188c0fa7362-1" target="62893188c0fa7362-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="62893188c0fa7362-1" value="create Booking" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+        <mxCell id="62893188c0fa7362-1" value="create Booking&lt;br&gt;&quot;pending&quot;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="530" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="reJh8B2pBs2txFVzYymY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="62893188c0fa7362-2" target="62893188c0fa7362-9">
@@ -48,7 +48,7 @@
         <mxCell id="reJh8B2pBs2txFVzYymY-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="62893188c0fa7362-20" target="reJh8B2pBs2txFVzYymY-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="62893188c0fa7362-20" value="cập nhật booking success" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+        <mxCell id="62893188c0fa7362-20" value="cập nhật booking &quot;success&quot;" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="200" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="reJh8B2pBs2txFVzYymY-2" value="sau 5p không thanh toán" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -82,7 +82,7 @@
         <mxCell id="reJh8B2pBs2txFVzYymY-11" value="canceled&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="420" y="870" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="reJh8B2pBs2txFVzYymY-13" value="cập nhật booking cancel/ cập nhật tiền, xóa redis" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="reJh8B2pBs2txFVzYymY-13" value="cập nhật booking &quot;cancel&quot;&lt;br&gt;/ cập nhật tiền, xóa redis" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="420" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="reJh8B2pBs2txFVzYymY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="reJh8B2pBs2txFVzYymY-14" target="reJh8B2pBs2txFVzYymY-13">
@@ -91,7 +91,7 @@
         <mxCell id="reJh8B2pBs2txFVzYymY-14" value="Transactions" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="420" y="990" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="reJh8B2pBs2txFVzYymY-17" value="cập nhật booking stayed" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="reJh8B2pBs2txFVzYymY-17" value="cập nhật booking &quot;stayed&quot;" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry y="870" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="reJh8B2pBs2txFVzYymY-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="reJh8B2pBs2txFVzYymY-14" target="reJh8B2pBs2txFVzYymY-14">
