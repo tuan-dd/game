@@ -34,9 +34,9 @@ Overall, Web book hotel represents a significant leap forward in travel booking 
 
 ### Authentication
 
-- [x] registering for a new account with name, email, and password, gmail
-- [x] signing in with my email and password.
-- [ ] getting new password when forget by link send user mail, (advance)
+- [x] Registering for a new account with name, email, and password, gmail
+- [x] Signing in with my email and password.
+- [ ] Getting new password when forget by link send user mail, (advance)
 
 ### Users
 
@@ -45,42 +45,42 @@ Overall, Web book hotel represents a significant leap forward in travel booking 
 `tenant`
 
 - [x] seeing profile of a specific given a user ID.
-- [x] updating profile
-- [x] having see history books status : decline, success,stayed,pending(`limit time`)
+- [x] Updating profile
+- [x] Having see history books status : decline, success,stayed,pending(`limit time`)
 - [x] cancel book,
 - [x] Every one can see list or detail hotel
-- [x] creating and paying booking
-- [x] reviewing star ,upload image, comment when user stayed hotel ( booking have status : stay)
-- [ ] accumulate points to decrease fee (example : 1 point to 1k , 10k to 1 point)
+- [x] Creating and paying booking
+- [x] Reviewing star ,upload image, comment when user stayed hotel
+- [ ] Accumulating points to decrease fee (example : 1 point to 1k , 10k to 1 point)
 
 `hotelier`
 
-- [x] all features in tenant
-- [x] creating hotel, payment membership
-- [x] paying membership
-- [x] replying review
+- [x] All features in tenant
+- [x] Creating hotel, payment membership
+- [x] Paying membership
+- [x] Replying review
 
 ### hotel
 
 `tenant`
 
-- [x] seeing a list of hotel
-- [x] seeing a hotel hotel
-- [x] seeing review and reply
-- [x] filtering
+- [x] Seeing a list of hotel
+- [x] Seeing a hotel hotel
+- [x] Seeing review and reply
+- [x] Filtering
 
 `hotelier`
 
 - [x] All features in tenant
-- [x] Only owner can Update, edit, delete, membership ([ ] advance: create sale off limited expiration time, limited number of times)
+- [x] Only owner can Update, edit, delete, membership (- [ ] advance: create sale off limited expiration time, limited number of times)
 
 ### review
 
 `tenant`
 
-- [x] seeing list of comments, reply on hotel.
-- [x] writing review on a post when user stayed hotel
-- [x] updating their review.
+- [x] Seeing list of comments, reply on hotel.
+- [x] Writing review on a post when user stayed hotel
+- [x] Updating their review.
 
 `hotelier`
 
@@ -89,23 +89,23 @@ Overall, Web book hotel represents a significant leap forward in travel booking 
 
 ### book and payment
 
-- [x] booking hotel select type room ,time
+- [x] Booking hotel select type room ,time
 - [x] Having status pending, success, staye, decline, cancel
-- [x] canceling (advance : [X] before 24h refund 100% after can not refund )
+- [x] Canceling (advance : - [X] before 24h refund 100% after can not refund )
 - [x] `mongoose transaction`: payment atomic
 - [x] Charger withdrawal (advance)
 
 ### admin
 
-- [x] block user, delete review, block hotel, ([]advance : alert user )
-- [ ] see all boxChat
+- [x] block user, delete review, block hotel, (- [ ] advance : alert user )
+- [ ] See all boxChat
 
 ### message (advance)
 
-- [ ] tenant can chat with support ,hotelier ,
-- [ ] hotelier support ,hotelier
-- [ ] cant select who want chat
-- [ ] advance send img
+- [ ] Tenant can chat with support ,hotelier ,
+- [ ] Hotelier support ,hotelier
+- [ ] Cant select who want chat
+- [ ] Advance send img
 
 ## Endpoint APIs
 
@@ -114,7 +114,8 @@ Overall, Web book hotel represents a significant leap forward in travel booking 
 `/v1/api/`
 
 Go to **schemas/auth.schema.ts** to see schema
-[X]
+
+- [X]
 
 `POST auth/login` all can login
 
@@ -124,7 +125,8 @@ Go to **schemas/auth.schema.ts** to see schema
 
 Go to **schemas/user.schema.ts** to see schema
 
-`POST sign-up` register new user
+- [X]
+- `POST sign-up` register new user
 
 `PUT user/user-update` **Login required** update me
 
@@ -134,7 +136,7 @@ Go to **schemas/user.schema.ts** to see schema
 
 Go to **schemas/hotel.schema.ts** to see schema
 
-[X]
+- [X]
 
 `POST user/create-hotel` **Login required** create to hotelier
 
@@ -152,7 +154,7 @@ Go to **schemas/hotel.schema.ts** to see schema
 
 Go to **schemas/review.schema.ts** to see schema
 
-[X]
+- [X]
 
 `GET review/:reviewId` \*\*\* get all review in post
 
@@ -160,11 +162,11 @@ Go to **schemas/review.schema.ts** to see schema
 
 `PUT review/:id` \*\*\* **Login required** author can update
 
-### payment
+### Payment
 
 Go to **schemas/booking.schema.ts** to see schema
 
-[X]
+- [X]
 
 `POST payment/create-booking` \*\*\* **Login required** booking hotel
 
@@ -189,7 +191,8 @@ Go to **schemas/booking.schema.ts** to see schema
 ### admin
 
 Go to **schemas/admin.schema.ts** to see schema
-[]
+
+- [ ]
 
 `PUT admin/user/:id` \*\*\* **Login required** update user
 
@@ -205,7 +208,7 @@ Go to **schemas/admin.schema.ts** to see schema
 
 ### Frontend 1 week
 
-### use next.js
+### Use next.js
 
 `Create a categorized product list and filter function for the Homepage.`
 `Create layouts, content, and components for the User Profile & Account Setting Page - UI without testing.`
