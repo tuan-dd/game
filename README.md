@@ -1,4 +1,4 @@
-<STAY align="center" style="color:purple;">STAY MATE </h1>
+<h1 align="center" style="color:purple;">STAY MATE </h1>
 
 <h1 align="center">Hi 👋, I'm Huynh Van Anh Tuan</h1>
 <h3 align="center">A passionate full Stack developer from VietNam</h3>
