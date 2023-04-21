@@ -1,4 +1,4 @@
-# Stay Mate
+<h1 align="center">STAY MATE</h1>
 
 <h1 align="center">Hi 👋, I'm Huynh Van Anh Tuan</h1>
 <h3 align="center">A passionate full Stack developer from VietNam</h3>
@@ -126,7 +126,8 @@ Go to **schemas/auth.schema.ts** to see schema
 Go to **schemas/user.schema.ts** to see schema
 
 - [x]
-- `POST sign-up` register new user
+
+`POST sign-up` register new user
 
 `PUT user/user-update` **Login required** update me
 
