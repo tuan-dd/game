@@ -42,9 +42,9 @@ Overall, Web book hotel represents a significant leap forward in travel booking 
 
 - [x] User two type : tenant/hotelier
 
-`tenant`
+`Tenant`
 
-- [x] seeing profile of a specific given a user ID.
+- [x] Seeing profile of a specific given a user ID.
 - [x] Updating profile
 - [x] Having see history books status : decline, success,stayed,pending(`limit time`)
 - [x] cancel book,
@@ -53,54 +53,54 @@ Overall, Web book hotel represents a significant leap forward in travel booking 
 - [x] Reviewing star ,upload image, comment when user stayed hotel
 - [ ] Accumulating points to decrease fee (example : 1 point to 1k , 10k to 1 point)
 
-`hotelier`
+`Hotelier`
 
 - [x] All features in tenant
 - [x] Creating hotel, payment membership
 - [x] Paying membership
 - [x] Replying review
 
-### hotel
+### Hotel
 
-`tenant`
+`Tenant`
 
 - [x] Seeing a list of hotel
 - [x] Seeing a hotel hotel
 - [x] Seeing review and reply
 - [x] Filtering
 
-`hotelier`
+`Hotelier`
 
 - [x] All features in tenant
 - [x] Only owner can Update, edit, delete, membership (- [ ] advance: create sale off limited expiration time, limited number of times)
 
-### review
+### Review
 
-`tenant`
+`Tenant`
 
 - [x] Seeing list of comments, reply on hotel.
 - [x] Writing review on a post when user stayed hotel
 - [x] Updating their review.
 
-`hotelier`
+`Hotelier`
 
 - [x] All features in tenant
 - [x] Only owner create reply review
 
-### book and payment
+### Book and payment
 
 - [x] Booking hotel select type room ,time
 - [x] Having status pending, success, staye, decline, cancel
-- [x] Canceling (advance : - [X] before 24h refund 100% after can not refund )
+- [x] Canceling (advance : - [x] before 24h refund 100% after can not refund )
 - [x] `mongoose transaction`: payment atomic
 - [x] Charger withdrawal (advance)
 
-### admin
+### Admin
 
 - [x] block user, delete review, block hotel, (- [ ] advance : alert user )
 - [ ] See all boxChat
 
-### message (advance)
+### Message (advance)
 
 - [ ] Tenant can chat with support ,hotelier ,
 - [ ] Hotelier support ,hotelier
@@ -115,7 +115,7 @@ Overall, Web book hotel represents a significant leap forward in travel booking 
 
 Go to **schemas/auth.schema.ts** to see schema
 
-- [X]
+- [x]
 
 `POST auth/login` all can login
 
@@ -125,7 +125,7 @@ Go to **schemas/auth.schema.ts** to see schema
 
 Go to **schemas/user.schema.ts** to see schema
 
-- [X]
+- [x]
 - `POST sign-up` register new user
 
 `PUT user/user-update` **Login required** update me
@@ -136,7 +136,7 @@ Go to **schemas/user.schema.ts** to see schema
 
 Go to **schemas/hotel.schema.ts** to see schema
 
-- [X]
+- [x]
 
 `POST user/create-hotel` **Login required** create to hotelier
 
@@ -150,11 +150,11 @@ Go to **schemas/hotel.schema.ts** to see schema
 
 `GET hotel/:Id` \*\*\* all detail hotel
 
-### review
+### Review
 
 Go to **schemas/review.schema.ts** to see schema
 
-- [X]
+- [x]
 
 `GET review/:reviewId` \*\*\* get all review in post
 
@@ -166,7 +166,7 @@ Go to **schemas/review.schema.ts** to see schema
 
 Go to **schemas/booking.schema.ts** to see schema
 
-- [X]
+- [x]
 
 `POST payment/create-booking` \*\*\* **Login required** booking hotel
 
@@ -184,11 +184,11 @@ Go to **schemas/booking.schema.ts** to see schema
 
 `GET payment/membership` \*\*\* **Login required** get membership
 
-### message
+### Message
 
 `advance`
 
-### admin
+### Admin
 
 Go to **schemas/admin.schema.ts** to see schema
 
