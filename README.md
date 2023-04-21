@@ -209,18 +209,18 @@ Go to **schemas/admin.schema.ts** to see schema
 
 ### Frontend 1 week
 
-### Use next.js
+### Using next.js
 
--[ ] `Create a categorized product list and filter function for the Homepage.`
+- [ ] `Create a categorized product list and filter function for the Homepage.`
 
--[ ] `Create layouts, content, and components for the User Profile & Account Setting Page - UI without testing.`
+- [ ] `Create layouts, content, and components for the User Profile & Account Setting Page - UI without testing.`
 
--[ ] `Create layouts, content, and components for Upload Product Page - UI without testing.`
+- [ ] `Create layouts, content, and components for Upload Product Page - UI without testing.`
 
--[ ] `Create layouts, content, and components for Detail Product Page - UI without testing.`
+- [ ] `Create layouts, content, and components for Detail Product Page - UI without testing.`
 
--[ ] `Create layouts, content, and components for Cart Page - UI without testing.`
+- [ ] `Create layouts, content, and components for Cart Page - UI without testing.`
 
--[ ] `Create layouts, content, and components for Complete Buying Page - UI without testing.`
+- [ ] `Create layouts, content, and components for Complete Buying Page - UI without testing.`
 
--[ ] `Implement users' interaction for each page with API service and Redux.`
+- [ ] `Implement users' interaction for each page with API service and Redux.`
